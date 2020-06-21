@@ -9,6 +9,8 @@ React.js FrontEnd UI for spIntegration SDK for ScalaPay API
 
 ## Installing dependencies
 
+Need to clone and run the spIntegration API appilcation.
+
 Using npm:
 
 ```bash
