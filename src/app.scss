@@ -1,0 +1,44 @@
+.TableList {
+    height: 100%;
+    width: 100%;
+    .pageHeader {
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        padding: 0px 20px;
+        display: flex;
+        .backArrow {
+            height: 24px;
+            line-height: 24px;
+            display: flex;
+            cursor: pointer;
+            width: 65px;
+            padding: 0px 5px;
+            margin-top: 8px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.15);
+            &:hover {
+                color: white;
+            }
+            .backArrowIcon {
+                margin-top: 2px;
+                font-size: 20px;
+            }    
+
+        }
+    }
+	.fetchLoaderWrapper {
+		position: absolute;
+        top: 50%;
+        left: 50%;
+        .fetchLoader {
+    		border: 3px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 3px solid #ac0000;
+            width: 63px;
+            height: 63px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+    	}
+	}        
+}

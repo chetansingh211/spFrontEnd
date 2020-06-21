@@ -1,0 +1,29 @@
+
+.App {
+	height: 100vh;
+	background-color: #696969;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+
+.Home .lander {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.Home .lander p {
+  color: #999;
+}
+
+.NotFound {
+  padding-top: 100px;
+  text-align: center;
+}
